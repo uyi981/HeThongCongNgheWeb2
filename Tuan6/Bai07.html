@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+        var D = new Date();
+        var min;
+        if(D.getMinutes()<10)
+        var min = "0"+D.getMinutes();
+        else
+        min = D.getMinutes();
+        document.write( D.getDay()+"/"+D.getMonth()+"/"+D.getFullYear()+" "+ D.getHours() + "h" + min);
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai8</title>
+
+    <style>
+         #a
+         {
+            border-left: 10px outset #DF127B;
+            border-right: 10px outset #F7C200;
+            border-top: 10px  outset #85C226;
+            border-bottom: 10px outset #4493A0;
+            text-align: center;
+            width: 500px;
+            
+        }
+        #b
+        {
+            border-top: 10px outset green;
+            border-right: 10px dotted yellow;
+            border-bottom: 10px groove blue;
+            border-left: 10px double pink;
+            text-align: center;
+            width: 500px;
+        }
+        #td
+        {
+            background: red;
+            color: white;
+            
+            
+        }
+        #c
+        {
+            border-top: 5px outset green;
+            border-right: 10px outset yellow;
+            border-left: 20px outset pink;
+            border-bottom: 15px outset blue;
+            text-align: center;
+            width: 500px;
+        
+        }
+        #example4{
+        border-radius: 0px 30px 70px 20px;
+        border-color: green yellow blue pink;
+        border-style:solid;
+        box-shadow: 0px 30px 70px 20px;
+        -moz-box-shadow:0px 30px 70px 20px;
+        -webkit-box-shadow:0px 30px 70px 20px; 
+    }
+    
+    #e{
+        border-width: 4px 30px 4px 30px;
+        border-color: green;
+        border-style:solid;
+        border-style:groove ridge dashed groove;
+        border-radius: 100px 100px 0 0 ;
+        -moz-border-radius: 100px 100px 0 0 ;
+        -webkit-border-radius: 100px 100px 0 0 ; 
+    }
+    #f{
+        border-width: 4px 30px 4px 30px;
+        border-color: green;
+        border-style:solid;
+        border-style:groove ridge dashed groove;
+        border-radius: 100px 100px 0 0 ;
+        -moz-border-radius: 100px 100px 0 0 ;
+        -webkit-border-radius: 100px 100px 0 0 ; 
+    }
+    #g{
+        border-radius: 20px;
+        border-color:yellow;
+        border-style:solid;
+        -moz-border-radius:20px;
+        -webkit-border-radius: 20px; 
+    }
+    #h
+        border-width:0px 20px 0px 20px;
+        border-color: violet;
+        border-style:solid;
+        border-style:double;
+        border-radius: 40px 40px 60px 60px;
+        -moz-border-radius:40px 40px 60px 60px;
+        -webkit-border-radius: 40px 40px 60px 60px;
+    }
+    #j{
+        border-radius: 20px 100px 100px 20px;
+        border-color: blue;
+        border-style:solid;
+        -moz-border-radius:20px 100px 100px 20px;
+        -webkit-border-radius: 20px 100px 100px 20px; 
+    }
+    #k{
+       background: greenyellow; 
+       border-width: 4px 30px 4px 30px;
+       border-style:solid;
+       border-color:#56c6d9  #56c6d9  #fe2192 #fe2192;
+       border-radius: 0 120px 0 120px;
+        -moz-border-radius: 0 120px 0 120px;
+        -webkit-border-radius: 0 120px 0 120px;
+    }
+    #m{
+        width: 200px;
+        padding: 8px;
+        background-color:#428bca;   
+        border-style:solid;
+        border-color:#56c6d9 ;
+        color: #ffffff;
+        border-radius: 10px;
+        -moz-border-radius:10px;
+        -webkit-border-radius: 10px;
+        -khtml-border-radius:  10px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid transparent;
+        font-weight: 900;
+        font-size: 125%;
+    }
+        
+    </style>
+</head>
+<body>
+    <article>Phan a )</article>
+    <h2>Border Color</h2> <br><br>
+    
+   <div id="a">
+       <p>Here the top border (green) has a solid style (#82C26) in color, <br>
+          right border is yellow (#F7C200), <br>
+          the bottom has blue (#4493A0) <br>
+          and the left border is pink (#DF127B) in color
+       </p>
+   </div>
+   <br><br>
+   <article>Phan b )</article>
+   <table>
+       <tr>
+           <td><h2>Border Styles</h2></td>
+           <td id="td">Important</td>
+       </tr>
+   </table>
+   <p>
+       This property must be used if you are using any of the Border properties. <br>
+       Without using the borders-style property you won't see any border at all. <br>
+
+   </p>
+   <div id="b">
+       
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <br><br>
+   <article>Phan c )</article>
+   <h2>Border Width</h2> <br> <br>
+   <div id="c">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <br><br>
+   <article>Phan d )</article>
+   <h2>Border Radius</h2>
+   <p>
+       For displaying round corners Border Radius property is <used class="br">
+           IE9 and Opera use the same code. For Firefox a prefix needs to be added before the code . And for Webkit Browser <br>
+       </used>
+   </p>
+   <div id="d">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id="e">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id="f">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id=""g>
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id="h">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id="j">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id="k">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+   <div id="m">
+    <p>Here the top border is green (#82C26) in color, <br>
+        right border is yellow (#F7C200), <br>
+        the bottom has blue (#4493A0) <br>
+        and the left border is pink (#DF127B) in color
+     </p>
+   </div>
+</body>
+</html>
